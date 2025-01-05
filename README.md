@@ -64,6 +64,7 @@ Este proyecto es una aplicación web para la gestión de inventarios. La aplicac
 ### 4.1 Requisitos previos
 - Go instalado (versión 1.18 o superior).
 - SQLite instalado (opcional, para inspeccionar la base de datos).
+- Tienes que teneir pre instaldo "gcc" de 64
 
 ### 4.2 Instrucciones para compilar
 1. Navega al directorio del proyecto:
@@ -134,7 +135,4 @@ Para implementar el proyecto en un servidor:
 - Mejorar el diseño de la interfaz web con librerías como Bootstrap.
 - Agregar pruebas unitarias y de integración automatizadas.
 
----
-
-Si necesitas más información o ajustes adicionales, no dudes en solicitarlo. 😊
 
