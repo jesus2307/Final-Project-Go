@@ -5,6 +5,7 @@
 
 - Go installed (version 1.18 or higher).
 - SQLite installed (optional, for database inspection).
+- Tienes que teneir pre instaldo "gcc" de 64
 
 ## 4.2 Compilation Instructions
 
