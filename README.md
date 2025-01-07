@@ -36,6 +36,7 @@ Con base en estas necesidades, se diseñó e implementó este proyecto: una apli
 - **Frontend**: HTML, CSS.
 
 ### 2.3 Diagrama de funcionamiento
+![Descripción de la imagen](imagenes/Captura.PNG)
 1. El usuario accede al cliente web desde su navegador.
 2. El cliente envía solicitudes HTTP a la API RESTful para listar, agregar o eliminar productos.
 3. La API interactúa con la base de datos SQLite para realizar las operaciones solicitadas.
