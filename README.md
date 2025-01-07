@@ -1,4 +1,5 @@
 # Documentación del Proyecto
+![Descripción de la imagen](imagenes/708189420_227701151_1706x1280.webp)
 
 ## 1. Descripción del Proyecto
 Partiendo de las necesidades de un cliente real relacionadas con la gestión de invernaderos, se plantearon una serie de preguntas clave para determinar los requerimientos específicos del sistema. Estas preguntas incluyen:
