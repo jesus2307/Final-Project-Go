@@ -2,7 +2,7 @@
 ![Descripción de la imagen](imagenes/708189420_227701151_1706x1280.webp)
 
 ## 1. Descripción del Proyecto
-Partiendo de las necesidades de un cliente real relacionadas con la gestión de invernaderos, se plantearon una serie de preguntas clave para determinar los requerimientos específicos del sistema. Estas preguntas incluyen:
+Partiendo de las necesidades de un cliente real relacionadas con la gestión de varios invernaderos y/o cultivos bajo plástico, se plantearon una serie de preguntas claves para determinar los requerimientos específicos del sistema. Entre estas preguntas, destacan:
 
 - ¿Qué tipo de productos necesitas gestionar en tu inventario? (Semillas, fertilizantes, herramientas, etc.)
 - ¿Cuánta información necesitas almacenar sobre cada producto? (Nombre, precio, cantidad, categoría, fecha de adquisición, etc.)
@@ -12,7 +12,7 @@ Partiendo de las necesidades de un cliente real relacionadas con la gestión de 
 - ¿Necesitas generar informes o currículum?
 - ¿Es importante incluir una funcionalidad de paginación para manejar grandes volúmenes de datos?
 
-Con base en estas necesidades, se diseñó e implementó este proyecto: una aplicación web para la gestión de inventarios. La aplicación permite realizar operaciones CRUD (“Crear, Leer, Actualizar y Eliminar”) sobre una base de datos SQLite que almacena información sobre productos. Está diseñado para ejecutarse localmente, ofreciendo una API RESTful y una interfaz web interactiva desarrollada en Go.
+En base a estas necesidades, se diseñó e implementó este proyecto: una aplicación web para la gestión de inventarios. La aplicación permite realizar operaciones CRUD (“Crear, Leer, Actualizar y Eliminar”) sobre una base de datos SQLite que almacena información sobre productos. Está diseñado para ejecutarse localmente, ofreciendo una API RESTful y una interfaz web interactiva desarrollada en Go.
 
 ### Características principales:
 - Listado de productos con soporte para paginación.
