@@ -126,6 +126,6 @@ Para implementar el proyecto en un servidor:
 
 ### 5.2 Mejoras futuras
 - Agregar autenticación y autorización para proteger la API.
+- Agregar notificaciones con MQTT
 - Mejorar el diseño de la interfaz web con librerías como Bootstrap.
-- Agregar pruebas unitarias y de integración automatizadas.
 
