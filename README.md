@@ -4,7 +4,7 @@
 Este proyecto es una aplicación web para la gestión de inventarios. La aplicación permite realizar operaciones CRUD (“Crear, Leer, Actualizar y Eliminar”) sobre una base de datos SQLite que almacena información sobre productos. Está diseñada para ejecutarse localmente, ofreciendo una API RESTful y una interfaz web interactiva desarrollada en Go.
 
 ### Características principales:
-- Listado de productos.
+- Listado de productos con soporte para paginación.
 - Agregado de nuevos productos.
 - Eliminación de productos existentes.
 - Persistencia de datos mediante SQLite.
@@ -35,11 +35,11 @@ Este proyecto es una aplicación web para la gestión de inventarios. La aplicac
 ## 3. Casos de Prueba
 
 ### 3.1 Pruebas funcionales
-#### **Caso 1: Listar productos**
-**Descripción**: Verificar que la lista de productos se muestre correctamente.
-- **Entrada**: Ninguna (acceso a la página principal).
-- **Proceso**: El cliente web realiza una solicitud GET a la API.
-- **Salida esperada**: Una lista de productos en formato JSON que se renderiza en la interfaz web.
+#### **Caso 1: Listar productos con paginación**
+**Descripción**: Verificar que la lista de productos se muestre correctamente, respetando los límites de la paginación.
+- **Entrada**: Parámetro de URL `page` con un número de página válido.
+- **Proceso**: El cliente web realiza una solicitud GET a la API con el parámetro `page`.
+- **Salida esperada**: Una lista de productos correspondiente a la página solicitada.
 
 #### **Caso 2: Agregar un producto**
 **Descripción**: Comprobar que un producto nuevo se agrega correctamente.
@@ -64,7 +64,7 @@ Este proyecto es una aplicación web para la gestión de inventarios. La aplicac
 ### 4.1 Requisitos previos
 - Go instalado (versión 1.18 o superior).
 - SQLite instalado (opcional, para inspeccionar la base de datos).
-- Tienes que teneir pre instaldo "gcc" de 64
+- Tener preinstalado "gcc" de 64 bits.
 
 ### 4.2 Instrucciones para compilar
 1. Navega al directorio del proyecto:
@@ -107,12 +107,13 @@ Para implementar el proyecto en un servidor:
 ### 5.1 Descripción técnica
 #### **API RESTful**
 - **Endpoints principales**:
-  - `GET /products`: Lista todos los productos.
-  - `POST /products`: Agrega un nuevo producto.
+  - `GET /`: Lista los productos con paginación (requiere el parámetro `page`).
+  - `POST /add`: Agrega un nuevo producto.
   - `POST /delete`: Elimina un producto por ID.
 
 #### **Cliente Web**
 - Interfaz construida con plantillas HTML renderizadas por el paquete `html/template` de Go.
+- Soporte para paginación y renderización de datos dinámica.
 - Interacciones mediante formularios HTTP.
 
 #### **Base de datos**
@@ -124,15 +125,12 @@ Para implementar el proyecto en un servidor:
   - `quantity`: Cantidad disponible.
   - `category`: Categoría del producto.
 
-### 5.2 Justificación de diseño
-- Se eligió Go por su rendimiento y capacidades para construir aplicaciones web.
-- SQLite fue seleccionado por su simplicidad y soporte para bases de datos embebidas.
-- El cliente web utiliza plantillas para facilitar la renderización dinámica de datos.
+### 5.2 Mejoras implementadas
+- Soporte para paginación en el listado de productos.
+- Funciones personalizadas (`add` y `sub`) integradas en las plantillas para facilitar la navegación.
 
 ### 5.3 Mejoras futuras
 - Agregar autenticación y autorización para proteger la API.
-- Implementar paginación para el listado de productos.
 - Mejorar el diseño de la interfaz web con librerías como Bootstrap.
 - Agregar pruebas unitarias y de integración automatizadas.
-
 
