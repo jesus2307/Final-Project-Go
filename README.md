@@ -71,23 +71,10 @@ Este proyecto es una aplicación web para la gestión de inventarios. La aplicac
    ```bash
    cd /ruta/del/proyecto
    ```
-2. Inicializa el módulo Go (si no está creado):
-   ```bash
-   go mod init proyecto_final
-   ```
-3. Descarga las dependencias:
-   ```bash
-   go mod tidy
-   ```
-4. Compila el proyecto:
-   ```bash
-   go build -o proyecto_final
-   ```
-
 ### 4.3 Instrucciones para ejecutar
 1. Ejecuta el archivo compilado:
    ```bash
-   ./proyecto_final
+   go run main.go
    ```
 2. Abre tu navegador y accede a:
    ```
