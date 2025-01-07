@@ -129,7 +129,9 @@ Para implementar el proyecto en un servidor:
 - Agregar notificaciones con MQTT
 - Mejorar el diseño de la interfaz web con librerías como Bootstrap.
 
-# 6 Temas del curso que han sido abordados
+# 6. Temas del curso
+
+### 6.1 Temas del curso que han sido abordados
 - RESTful Web Services.
 - Bases de datos.
 - Templates en Go.
