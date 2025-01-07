@@ -47,19 +47,14 @@ Con base en estas necesidades, se diseñó e implementó este proyecto: una apli
 ## 3. Casos de Prueba
 
 ### 3.1 Pruebas funcionales
-#### **Caso 1: Listar productos con paginación**
-**Descripción**: Verificar que la lista de productos se muestre correctamente, respetando los límites de la paginación.
-- **Entrada**: Parámetro de URL `page` con un número de página válido.
-- **Proceso**: El cliente web realiza una solicitud GET a la API con el parámetro `page`.
-- **Salida esperada**: Una lista de productos correspondiente a la página solicitada.
 
-#### **Caso 2: Agregar un producto**
+#### **Caso 1: Agregar un producto**
 **Descripción**: Comprobar que un producto nuevo se agrega correctamente.
 - **Entrada**: Nombre, precio, cantidad y categoría del producto.
 - **Proceso**: El cliente web envía una solicitud POST a la API.
 - **Salida esperada**: El producto aparece en la lista de productos.
 
-#### **Caso 3: Eliminar un producto**
+#### **Caso 2: Eliminar un producto**
 **Descripción**: Verificar que un producto existente se elimina correctamente.
 - **Entrada**: ID del producto a eliminar.
 - **Proceso**: El cliente web envía una solicitud POST al endpoint de eliminación.
