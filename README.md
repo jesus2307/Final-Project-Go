@@ -136,3 +136,8 @@ Para implementar el proyecto en un servidor:
 - Programación web en Go.
 - Arquitectura de sistemas distribuidos.
 
+# 7. Conclusión 
+A modo de conclusión, decir que el proyecto puede ser una solución funcional y práctica para la gestión de inventarios, ya que permite un sólido dominio de los conceptos trabajados durante el curso. Integra herramientas claves como Go, SQLite y plantillas HTML, y 
+ a la vez proporciona una base escalable para futuras mejoras. 
+
+
