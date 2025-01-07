@@ -137,5 +137,7 @@ Para implementar el proyecto en un servidor:
 - Templates en Go.
 - Manejo de solicitudes.
 - Paginación y gestión de grandes volúmenes de datos.
-- Programación de red.
+- Programación de red en Go.
+- Programación web en Go.
+- Arquitectura de sistemas distribuidos.
 
