@@ -125,11 +125,7 @@ Para implementar el proyecto en un servidor:
   - `quantity`: Cantidad disponible.
   - `category`: Categoría del producto.
 
-### 5.2 Mejoras implementadas
-- Soporte para paginación en el listado de productos.
-- Funciones personalizadas (`add` y `sub`) integradas en las plantillas para facilitar la navegación.
-
-### 5.3 Mejoras futuras
+### 5.2 Mejoras futuras
 - Agregar autenticación y autorización para proteger la API.
 - Mejorar el diseño de la interfaz web con librerías como Bootstrap.
 - Agregar pruebas unitarias y de integración automatizadas.
