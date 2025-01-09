@@ -101,7 +101,7 @@ Para implementar el proyecto en un servidor:
 ### 5.1 Descripción técnica
 #### **API RESTful**
 - **Endpoints principales**:
-  - `GET /`: Lista los productos con paginación (requiere el parámetro `page`).
+  - `GET /`: Lista los productos con paginación (requiere el parámetro page).
   - `POST /add`: Agrega un nuevo producto.
   - `POST /delete`: Elimina un producto por ID.
 
