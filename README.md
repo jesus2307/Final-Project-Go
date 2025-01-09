@@ -106,7 +106,7 @@ Para implementar el proyecto en un servidor:
   - `POST /delete`: Elimina un producto por ID.
 
 #### **Cliente Web**
-- Interfaz construida con plantillas HTML renderizadas por el paquete `html/template` de Go.
+- Interfaz construida con plantillas HTML renderizadas por el paquete html/template de Go.
 - Soporte para paginación y renderización de datos dinámica.
 - Interacciones mediante formularios HTTP.
 
